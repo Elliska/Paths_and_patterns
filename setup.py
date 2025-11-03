@@ -4,7 +4,7 @@ import sys
 import venv
 import ensurepip
 import shutil
-from data.paths import BASE_DIR,  VENV_DIR, REQUIREMENTS, DB_PATH, TEMPLATE_PATH, EXCEL_PATH 
+from data.paths import BASE_DIR,  VENV_DIR, REQUIREMENTS, DB_PATH, TEMPLATE_PATH, EXCEL_PATH, CSV_PATH
 
 ensurepip.bootstrap()
 
@@ -25,7 +25,7 @@ else:
     print("⚠️ requirements.txt not found.")
 
 
-# os.makedirs(os.path.dirname(EXCEL_PATH), exist_ok=True)
+os.makedirs(os.path.dirname(CSV_PATH), exist_ok=True)
 
 # Check if the personal training file exists
 if not os.path.exists(EXCEL_PATH):
