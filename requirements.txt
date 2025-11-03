@@ -30,3 +30,4 @@ traitlets==5.14.3
 tzdata==2025.2
 wcwidth==0.2.14
 zope.interface==8.0.1
+openpyxl
