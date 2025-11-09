@@ -10,11 +10,6 @@ __pycache__/
 # Databases
 training_db
 
-# Personal data
-fit_to_csv.py
-training_plan.xlsx
-
 # Source data folders
-fit_converted/
-garmin_connect_export/
-watch_export/
+src/
+testing/
